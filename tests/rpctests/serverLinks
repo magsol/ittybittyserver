@@ -1,0 +1,1 @@
+gcc -o server rpc-server.c -L/usr/local/lib  -lxmlrpc_server_abyss -lxmlrpc_server -lxmlrpc_abyss  -lpthread -lxmlrpc -lxmlrpc_util -lxmlrpc_xmlparse -lxmlrpc_xmltok 

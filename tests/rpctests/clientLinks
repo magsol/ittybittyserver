@@ -1,0 +1,2 @@
+gcc -o client rpc-client.c -L/usr/local/lib  -lcurl -lgssapi_krb5 -lxmlrpc_client -lxmlrpc -lxmlrpc_util -lxmlrpc_xmlparse -lxmlrpc_xmltok
+
